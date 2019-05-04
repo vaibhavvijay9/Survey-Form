@@ -4,6 +4,36 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+#form-container {
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 0 13%;
+}
+
+#survey-form {}
+
 fieldset {
     border: 0 !important;
+    padding-left: 0;
+}
+
+.form-element {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2%;
+    margin: 1% 0;
+}
+
+.form-element-label {
+    justify-self: end;
+    text-align: right;
+}
+
+.form-element-input {
+    justify-self: start;
+}
+
+.group {
+    text-align: left;
 }
