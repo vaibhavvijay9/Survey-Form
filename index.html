@@ -32,8 +32,8 @@
                     <input type="number" id="number" class="form-element-input" min="10" max="80" placeholder="Age" required>
                 </div>
                 <div class="form-element">
-                    <label for="current-role" class="form-element-label">Which option best describes your current role?</label>
-                    <select id="current-role" name="role" class="form-element-input">
+                    <label for="dropdown" class="form-element-label">Which option best describes your current role?</label>
+                    <select id="dropdown" name="role" class="form-element-input">
                         <option value="" disabled selected>Select an option</option>
                         <option value="student">Student</option>
                         <option value="full_time_job">Full Time Job</option>
@@ -47,24 +47,24 @@
                     <fieldset id="recommendation-level" class="form-element-input">
                         <div class="group">
                             <label for="choice1">
-                                <input type="radio" id="choice1" name="recommend" required>Definitely
+                                <input type="radio" id="choice1" name="recommend" value="definitely" required>Definitely
                             </label>
                         </div>
                         <div class="group">
                             <label for="choice2">
-                                <input type="radio" id="choice2" name="recommend" required>Maybe
+                                <input type="radio" id="choice2" name="recommend" value="maybe" required>Maybe
                             </label>
                         </div>
                         <div class="group">
                             <label for="choice3">
-                                <input type="radio" id="choice3" name="recommend" required>Not sure
+                                <input type="radio" id="choice3" name="recommend" value="not_sure" required>Not sure
                             </label>
                         </div>
                     </fieldset>
                 </div>
                 <div class="form-element">
                     <label for="most-liked" class="form-element-label">What do you like most in FCC:</label>
-                    <select id="most-liked" class="form-element-input">
+                    <select id="most-liked" name="most-liked-thing" class="form-element-input">
                         <option value="" disabled selected>Select an option</option>
                         <option value="challenges">Challenges</option>
                         <option value="projects">Projects</option>
