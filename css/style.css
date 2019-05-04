@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    background-color: #A9D7D1;
+    font-family: 'Raleway', sans-serif;
+}
+
+fieldset {
+    border: 0 !important;
+}
